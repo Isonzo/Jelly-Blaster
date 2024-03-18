@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Jelly-Blaster/static/css/main.ae004f08.css",
-    "main.js": "/Jelly-Blaster/static/js/main.83e17da9.js",
+    "main.js": "/Jelly-Blaster/static/js/main.5d0aeb75.js",
     "static/js/453.d6df9003.chunk.js": "/Jelly-Blaster/static/js/453.d6df9003.chunk.js",
     "static/media/Pixeled.ttf": "/Jelly-Blaster/static/media/Pixeled.0466f3371bc9b28affef.ttf",
     "index.html": "/Jelly-Blaster/index.html",
     "main.ae004f08.css.map": "/Jelly-Blaster/static/css/main.ae004f08.css.map",
-    "main.83e17da9.js.map": "/Jelly-Blaster/static/js/main.83e17da9.js.map",
+    "main.5d0aeb75.js.map": "/Jelly-Blaster/static/js/main.5d0aeb75.js.map",
     "453.d6df9003.chunk.js.map": "/Jelly-Blaster/static/js/453.d6df9003.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae004f08.css",
-    "static/js/main.83e17da9.js"
+    "static/js/main.5d0aeb75.js"
   ]
 }
