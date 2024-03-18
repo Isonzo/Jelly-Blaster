@@ -160,15 +160,22 @@ export default class PlayScene extends Phaser.Scene {
 
         spacebar.on('down', () => {
             if (document.activeElement !== inputMessage) {
-                this.player.jump();
+                if (this.gameOver)
+                    this.scene.start('MainMenu')
+                else
+                    this.player.jump();
             }
         })
         enter.on('down', () => {
             if (document.activeElement !== inputMessage) {
-                const bullet = this.player.shoot();
-                if (bullet) {
-                    this.bullets.add(bullet);
-                    bullet.setVelocityX(400);
+                if (this.gameOver)
+                    this.scene.start('MainMenu')
+                else {
+                    const bullet = this.player.shoot();
+                    if (bullet) {
+                        this.bullets.add(bullet);
+                        bullet.setVelocityX(400);
+                    }
                 }
             }
             // Fire a bubble
